@@ -1,0 +1,14 @@
+{
+  "name": "tileshop-cameroon",
+  "version": "1.0.0",
+  "description": "TileShop Cameroon - Full-stack tile e-commerce platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": ["tiles", "cameroon", "ecommerce", "react", "nodejs"],
+  "author": "TileShop Cameroon"
+}
